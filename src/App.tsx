@@ -5,6 +5,9 @@ import styled from "styled-components";
 
 const Container = styled.div`
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 
 // adding button to view more animes for fun and practice like in lab

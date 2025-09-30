@@ -8,6 +8,7 @@ const Card = styled.div`
     border-radius: 8px;
     padding: 20px;
     margin: 10px;
+    max-width: 1000px;
     background-color: #white;
     box-shadow: 0 2px 8px black;
     transition: transform 0.2s;
@@ -16,7 +17,7 @@ const Card = styled.div`
 const AnimeTitle = styled.h2`
     color: #DC143C;
     margin-bottom: 15px;
-    font-size: calc(22px + 0.5vw);
+    font-size: calc(35px + 0.5vw);
 `;
 
 const AnimeImage = styled.img`
